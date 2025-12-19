@@ -1,49 +1,66 @@
 <div align="center">
   <h1>Eltayeb Mohammed</h1>
-  <h3>Senior Mechanical Engineer | Fintech Innovator</h3>
-  <p><i>"Engineering trust, building financial inclusion."</i></p>
+  <h3>Senior Mechanical Engineer · Fintech Founder</h3>
+  <p><em>Engineering trust. Designing systems that scale.</em></p>
 
-  <a href="https://github.com/engrtitooo">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-  <a href="https://www.linkedin.com/in/eltayeb-mohammed-32435031">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="https://x.com/engrtitooo">
-    <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" />
-  </a>
+  <p>
+    <a href="https://github.com/engrtitooo" target="_blank">GitHub</a> ·
+    <a href="https://www.linkedin.com/in/eltayeb-mohammed-32435031" target="_blank">LinkedIn</a> ·
+    <a href="https://x.com/engrtitooo" target="_blank">X</a>
+  </p>
 </div>
 
 ---
 
-### 👨‍💻 About Me
+## About
 
-Hello! I’m **Eltayeb**, a Senior Mechanical Engineer and the Founder of **SpinFund**. I blend 18+ years of engineering precision with a passion for fintech innovation. My mission is to build ethical, AI-driven financial tools that promote transparency, trust, and financial well-being.
+I am a **Senior Mechanical Engineer** with over **18 years of experience** delivering complex infrastructure and systems projects in the United States. Alongside my engineering career, I am the founder of **SpinFund**, a fintech platform focused on ethical, community-driven financial systems.
 
-### 🚀 Entrepreneurial Ventures
+My work sits at the intersection of **engineering rigor, system design, and financial technology**—applying the same discipline used in safety-critical infrastructure to modern, compliant fintech products.
 
-**Founder @ SpinFund**
-*A fintech platform focused on cooperative savings and Sharia-compliant lending.*
-- Empowering underserved communities.
-- Innovating with AI for smarter group savings.
-- Focused on ethical finance and financial inclusion.
+---
 
-### 🛠 Professional Experience
+## Current Work
 
-**Senior Mechanical Engineer @ Metra**
-*Chicago’s Commuter Rail System*
-- Managing complex engineering projects.
-- Applying systems thinking to large-scale infrastructure.
-- Ensuring reliability and safety in transit systems.
+### Founder · SpinFund
+*A cooperative savings and Sharia-compliant financial platform*
 
-### 🎯 Current Focus
+SpinFund is being developed as a regulated, technology-first platform that enables:
+- Group-based savings (ROSCA-style) with transparent rules
+- Zero-interest, ethical financing structures
+- Secure automation using modern fintech infrastructure
+- A long-term roadmap for AI-assisted financial insights
 
-- 🚀 Launching the **SpinFund MVP**.
-- 💡 Exploring **AI applications** across industries.
-- 🤝 Advocating for **Ethical Finance**.
+The focus is on **trust, compliance, and real-world usability**, particularly for communities underserved by traditional financial systems.
+
+---
+
+## Professional Experience
+
+### Senior Mechanical Engineer · Metra  
+*Chicago Metropolitan Rail System*
+
+- Lead and review mechanical designs for transit and rail infrastructure
+- Manage multi-disciplinary coordination across planning, design, and construction
+- Apply systems engineering principles to safety, reliability, and lifecycle performance
+- Support capital projects with technical reviews, cost evaluation, and risk mitigation
+
+This role anchors my approach to fintech: **build it like infrastructure—robust, auditable, and resilient**.
+
+---
+
+## Areas of Focus
+
+- Financial systems architecture
+- Ethical and Sharia-compliant fintech models
+- AI applied to decision support and optimization
+- Large-scale system design and risk management
+- Bridging engineering discipline with startup execution
 
 ---
 
 <div align="center">
-  <p>Let’s connect, collaborate, or exchange ideas.</p>
+  <p>
+    Open to collaboration, technical discussion, and thoughtful problem-solving.
+  </p>
 </div>
