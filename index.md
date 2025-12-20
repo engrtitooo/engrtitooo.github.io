@@ -9,7 +9,7 @@ author_profile: true
   <h1 class="hero-name">Eltayeb Mohammed</h1>
   <p class="hero-role">Senior Mechanical Engineer · Fintech Founder</p>
   <p class="hero-summary">
-    I build reliable systems—in transit infrastructure and in fintech products. 18+ years of engineering discipline applied to software: clear scope, risk-aware design, and real deployments.
+    Building reliable systems in critical infrastructure and fintech. 18+ years engineering discipline applied to software—clear scope, risk-aware design, production deployments.
   </p>
   <div class="icon-row">
     <a href="https://github.com/engrtitooo" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
@@ -19,50 +19,69 @@ author_profile: true
   </div>
 </div>
 
+<div class="stats-row">
+  <div class="stat-item">
+    <div class="stat-number">18+</div>
+    <div class="stat-label">Years Engineering</div>
+  </div>
+  <div class="stat-item">
+    <div class="stat-number">5</div>
+    <div class="stat-label">Live Applications</div>
+  </div>
+  <div class="stat-item">
+    <div class="stat-number">2</div>
+    <div class="stat-label">Fintech Ventures</div>
+  </div>
+</div>
+
 ---
 
 ## Featured Work
-{: .section-heading}
 
 <div class="card-grid">
 
-<div class="project-card">
-  <h3>GhostNet</h3>
-  <p>Real-time WebRTC mesh peer-to-peer chat. Ephemeral messages, no accounts, zero-friction entry. Built as a hackathon project.</p>
-  <div class="card-links">
-    <a href="https://ghostnet.app" target="_blank" rel="noopener" class="btn btn--primary btn--small">Live</a>
-  </div>
-</div>
-
-<div class="project-card">
+<div class="project-card project-card--featured">
+  <p class="card-tagline">Fintech</p>
   <h3>SpinFund</h3>
-  <p>Cooperative savings and ethical finance platform. Compliance-first architecture with trust and transparency built in. MVP stage.</p>
+  <p>Cooperative savings and ethical finance platform. Compliance-first architecture with trust and transparency at its core.</p>
   <div class="card-links">
-    <a href="https://spinfund.app" target="_blank" rel="noopener" class="btn btn--primary btn--small">Live</a>
+    <a href="https://spinfund.app" target="_blank" rel="noopener" class="btn btn--primary btn--small">View Live</a>
   </div>
 </div>
 
-<div class="project-card">
+<div class="project-card project-card--featured">
+  <p class="card-tagline">Fintech</p>
   <h3>VerraPay</h3>
-  <p>Payments and settlement concept platform. Exploring modern payment flows and fintech infrastructure.</p>
+  <p>Payments and settlement platform. Modern payment flows and fintech infrastructure exploration.</p>
   <div class="card-links">
-    <a href="https://verrapay.net" target="_blank" rel="noopener" class="btn btn--primary btn--small">Live</a>
+    <a href="https://verrapay.net" target="_blank" rel="noopener" class="btn btn--primary btn--small">View Live</a>
   </div>
 </div>
 
 <div class="project-card">
+  <p class="card-tagline">WebRTC · Real-time</p>
+  <h3>GhostNet</h3>
+  <p>Peer-to-peer WebRTC mesh chat with ephemeral messages. No accounts, zero friction. Hackathon project.</p>
+  <div class="card-links">
+    <a href="https://ghostnet.app" target="_blank" rel="noopener" class="btn btn--primary btn--small">View Live</a>
+  </div>
+</div>
+
+<div class="project-card">
+  <p class="card-tagline">Education</p>
   <h3>CitiznGo</h3>
-  <p>U.S. citizenship prep web app. Simple, accessible learning experience for naturalization exam preparation.</p>
+  <p>U.S. citizenship exam prep web app. Clean, accessible learning experience for naturalization preparation.</p>
   <div class="card-links">
-    <a href="https://citizngo.netlify.app" target="_blank" rel="noopener" class="btn btn--primary btn--small">Live</a>
+    <a href="https://citizngo.netlify.app" target="_blank" rel="noopener" class="btn btn--primary btn--small">View Live</a>
   </div>
 </div>
 
 <div class="project-card">
+  <p class="card-tagline">AI · Design</p>
   <h3>ArchiCraft</h3>
-  <p>AI-assisted architectural and interior design concept exploration tool. Cloud-deployed with practical generation workflows.</p>
+  <p>AI-powered architectural and interior design concept exploration. Cloud-deployed with practical workflows.</p>
   <div class="card-links">
-    <a href="https://archicraft-250712192556.us-west1.run.app" target="_blank" rel="noopener" class="btn btn--primary btn--small">Live</a>
+    <a href="https://archicraft-250712192556.us-west1.run.app" target="_blank" rel="noopener" class="btn btn--primary btn--small">View Live</a>
   </div>
 </div>
 
@@ -71,12 +90,11 @@ author_profile: true
 ---
 
 ## What I Value
-{: .section-heading}
 
 <div class="values-list">
 
-- **Engineering rigor** — Requirements-driven design, risk identification, and systematic problem solving.
-- **Trust and compliance** — Building systems where reliability and transparency are non-negotiable.
-- **Shipping real deployments** — Working code in production, not slide decks.
+- **Engineering Rigor** — Requirements-driven design, systematic risk identification, and disciplined problem solving.
+- **Trust & Compliance** — Building systems where reliability and transparency are foundational, not afterthoughts.
+- **Production Delivery** — Working software deployed to real users. Ship, measure, iterate.
 
 </div>

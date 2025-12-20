@@ -5,27 +5,60 @@ layout: single
 author_profile: true
 ---
 
-## Get in Touch
-
-I'm open to conversations about fintech, engineering collaboration, or interesting technical challenges.
-
-<div class="icon-row icon-row--large">
-  <a href="https://github.com/engrtitooo" target="_blank" rel="noopener" aria-label="GitHub">
-    <i class="fab fa-github"></i>
-  </a>
-  <a href="https://www.linkedin.com/in/eltayeb-mohammed-32435031" target="_blank" rel="noopener" aria-label="LinkedIn">
-    <i class="fab fa-linkedin"></i>
-  </a>
-  <a href="https://x.com/engrtitooo" target="_blank" rel="noopener" aria-label="X">
-    <i class="fab fa-x-twitter"></i>
-  </a>
-  <a href="mailto:eaeltayb@gmail.com" aria-label="Email">
-    <i class="fas fa-envelope"></i>
-  </a>
+<div class="hero-section" style="padding: 2rem 1rem;">
+  <h1 class="hero-name" style="font-size: 2rem;">Get in Touch</h1>
+  <p class="hero-summary">
+    Open to conversations about fintech, engineering collaboration, or interesting technical challenges.
+  </p>
+  <div class="icon-row icon-row--large">
+    <a href="https://github.com/engrtitooo" target="_blank" rel="noopener" aria-label="GitHub">
+      <i class="fab fa-github"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/eltayeb-mohammed-32435031" target="_blank" rel="noopener" aria-label="LinkedIn">
+      <i class="fab fa-linkedin"></i>
+    </a>
+    <a href="https://x.com/engrtitooo" target="_blank" rel="noopener" aria-label="X">
+      <i class="fab fa-x-twitter"></i>
+    </a>
+    <a href="mailto:eaeltayb@gmail.com" aria-label="Email">
+      <i class="fas fa-envelope"></i>
+    </a>
+  </div>
 </div>
 
 ---
 
-**Email:** [eaeltayb@gmail.com](mailto:eaeltayb@gmail.com)
+<div class="card-grid">
 
-**Location:** Chicago, IL
+<div class="project-card">
+  <h3>📧 Email</h3>
+  <p>For business inquiries or collaboration opportunities.</p>
+  <div class="card-links">
+    <a href="mailto:eaeltayb@gmail.com" class="btn btn--primary btn--small">eaeltayb@gmail.com</a>
+  </div>
+</div>
+
+<div class="project-card">
+  <h3>💼 LinkedIn</h3>
+  <p>Professional network and career background.</p>
+  <div class="card-links">
+    <a href="https://www.linkedin.com/in/eltayeb-mohammed-32435031" target="_blank" rel="noopener" class="btn btn--primary btn--small">Connect</a>
+  </div>
+</div>
+
+<div class="project-card">
+  <h3>🐙 GitHub</h3>
+  <p>Open source work and code repositories.</p>
+  <div class="card-links">
+    <a href="https://github.com/engrtitooo" target="_blank" rel="noopener" class="btn btn--primary btn--small">View Profile</a>
+  </div>
+</div>
+
+</div>
+
+---
+
+<div class="info-card">
+  <h3>📍 Location</h3>
+  <p>Based in <strong>Chicago, IL</strong>. Available for remote collaboration worldwide.</p>
+</div>

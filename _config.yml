@@ -3,8 +3,8 @@ description: Senior Mechanical Engineer · Fintech Founder · Building reliable 
 url: "https://engrtitooo.github.io"
 baseurl: ""
 
-remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "air"   # "air" is clean, professional, and readable
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: "default"
 
 plugins:
   - jekyll-include-cache
@@ -14,7 +14,7 @@ plugins:
 author:
   name: "Eltayeb Mohammed"
   avatar: "/assets/images/avatar.png"
-  bio: "Senior Mechanical Engineer · Fintech Founder"
+  bio: "Senior Mechanical Engineer<br>Fintech Founder"
   location: "Chicago, IL"
   links:
     - label: "GitHub"
@@ -30,14 +30,6 @@ author:
       icon: "fas fa-fw fa-envelope"
       url: "mailto:eaeltayb@gmail.com"
 
-# Top navigation
-header_pages:
-  - index.md
-  - about.md
-  - apps.md
-  - projects.md
-  - contact.md
-
 # Defaults for pages
 defaults:
   - scope:
@@ -46,6 +38,17 @@ defaults:
     values:
       layout: single
       author_profile: true
+      toc: false
 
 # Make URLs clean
 permalink: pretty
+
+# Footer
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/engrtitooo"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/eltayeb-mohammed-32435031"
