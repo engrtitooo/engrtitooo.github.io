@@ -94,8 +94,8 @@ author_profile: true
 
 <div class="values-list">
 
-- **Engineering Rigor** — Requirements-driven design, systematic risk identification, and disciplined problem solving.
-- **Trust & Compliance** — Building systems where reliability and transparency are foundational, not afterthoughts.
-- **Production Delivery** — Working software deployed to real users. Ship, measure, iterate.
+- **Clarity before complexity** — Simple architectures, explicit tradeoffs, and solutions that are maintainable.
+- **Trust by design** — Security, privacy, and compliance considered early, not patched later.
+- **Operational readiness** — Deployable systems with monitoring, documentation, and a path to continuous improvement.
 
 </div>
