@@ -59,5 +59,5 @@ I bring this same discipline to software: **requirements-driven design**, lifecy
 
 <div class="info-card">
   <h3>📍 Chicago, IL</h3>
-  <p>Based in Chicago. Open to remote collaboration and partnership opportunities.</p>
+  <p>Based in Chicago.
 </div>
