@@ -491,6 +491,44 @@ body {
   }
 }
 
+/* ===== VALUES SECTION ===== */
+.values-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.value-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.value-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--accent-color);
+}
+
+.value-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin-bottom: 0.75rem;
+  display: block;
+}
+
+.value-text {
+  font-size: 0.95rem;
+  color: var(--text-medium);
+  margin: 0;
+  line-height: 1.6;
+}
+
 /* ===== ANIMATION ===== */
 @keyframes fadeInUp {
   from {

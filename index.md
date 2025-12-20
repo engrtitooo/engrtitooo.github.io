@@ -92,10 +92,17 @@ author_profile: true
 
 ## What I Value
 
-<div class="values-list">
-
-- **Clarity before complexity** — Simple architectures, explicit tradeoffs, and solutions that are maintainable.
-- **Trust by design** — Security, privacy, and compliance considered early, not patched later.
-- **Operational readiness** — Deployable systems with monitoring, documentation, and a path to continuous improvement.
-
+<div class="values-grid">
+  <div class="value-card">
+    <span class="value-title">Clarity before complexity</span>
+    <p class="value-text">Simple architectures, explicit tradeoffs, and solutions that are maintainable.</p>
+  </div>
+  <div class="value-card">
+    <span class="value-title">Trust by design</span>
+    <p class="value-text">Security, privacy, and compliance considered early, not patched later.</p>
+  </div>
+  <div class="value-card">
+    <span class="value-title">Operational readiness</span>
+    <p class="value-text">Deployable systems with monitoring, documentation, and a path to continuous improvement.</p>
+  </div>
 </div>

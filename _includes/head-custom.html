@@ -1,14 +1,8 @@
 <!-- Custom CSS for X Logo (SVG replacement) -->
 <style>
-/* SVG replacement for X logo to avoid Font Awesome version conflicts */
-.fa-x-twitter {
-  display: inline-block !important;
-  width: 1.25em !important;
-  text-align: center !important;
-  vertical-align: -0.1em !important;
-}
-
-.fa-x-twitter::before {
+/* Target the Twitter icon specifically within X links to replace it with the X logo */
+a[href*="x.com"] .fa-twitter::before,
+a[href*="twitter.com"] .fa-twitter::before {
   content: "" !important;
   display: inline-block !important;
   width: 1em !important;

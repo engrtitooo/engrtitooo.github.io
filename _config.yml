@@ -24,7 +24,7 @@ author:
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/eltayeb-mohammed-32435031"
     - label: "X"
-      icon: "fab fa-fw fa-x-twitter"
+      icon: "fab fa-fw fa-twitter"
       url: "https://x.com/engrtitooo"
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
