@@ -26,7 +26,7 @@ author_profile: true
     <div class="stat-label">Years Engineering</div>
   </div>
   <div class="stat-item">
-    <div class="stat-number">5</div>
+    <div class="stat-number">6</div>
     <div class="stat-label">Live Applications</div>
   </div>
   <div class="stat-item">
@@ -83,6 +83,15 @@ author_profile: true
   <p>AI-powered architectural and interior design concept exploration. Cloud-deployed with practical workflows.</p>
   <div class="card-links">
     <a href="https://archicraft-250712192556.us-west1.run.app" target="_blank" rel="noopener" class="btn btn--primary btn--small">View Live</a>
+  </div>
+</div>
+
+<div class="project-card">
+  <p class="card-tagline">AI · Education · Voice</p>
+  <h3>TimeDial</h3>
+  <p>Immersive history teacher with real-time voice conversations. Talk to Einstein, Cleopatra, and more.</p>
+  <div class="card-links">
+    <a href="https://timedial-app-456115331802.us-central1.run.app/" target="_blank" rel="noopener" class="btn btn--primary btn--small">View Live</a>
   </div>
 </div>
 
