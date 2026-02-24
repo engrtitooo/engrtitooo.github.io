@@ -92,6 +92,16 @@ author_profile: true
   <p>Immersive history teacher with real-time voice conversations. Talk to Einstein, Cleopatra, and more.</p>
   <div class="card-links">
     <a href="https://timedial-app-456115331802.us-central1.run.app/" target="_blank" rel="noopener" class="btn btn--primary btn--small">View Live</a>
+    <a href="https://github.com/engrtitooo/TimeDial" target="_blank" rel="noopener" class="btn btn--outline btn--small">GitHub</a>
+  </div>
+</div>
+
+<div class="project-card">
+  <p class="card-tagline">AI · Real Estate</p>
+  <h3>RealEstateOS</h3>
+  <p>AI-powered studio for real estate marketing. Stages empty rooms, turns floor plans into full-home designs, and generates professional listing copy.</p>
+  <div class="card-links">
+    <a href="https://github.com/engrtitooo/RealEstateOS" target="_blank" rel="noopener" class="btn btn--primary btn--small">View Repository</a>
   </div>
 </div>
 
