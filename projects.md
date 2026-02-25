@@ -106,7 +106,8 @@ author_profile: true
   <h3>RealEstateOS</h3>
   <p>AI-powered studio for real estate marketing. Stages empty rooms, turns floor plans into full-home designs, and generates professional listing copy using Google's Gemini and Imagen models.</p>
   <div class="card-links">
-    <a href="https://github.com/engrtitooo/RealEstateOS" target="_blank" rel="noopener" class="btn btn--primary btn--small">View Repository</a>
+    <a href="https://realestateos-769300741350.us-central1.run.app/" target="_blank" rel="noopener" class="btn btn--primary btn--small">View Live</a>
+    <a href="https://github.com/engrtitooo/RealEstateOS" target="_blank" rel="noopener" class="btn btn--outline btn--small">GitHub</a>
   </div>
 </div>
 
