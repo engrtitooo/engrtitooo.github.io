@@ -26,7 +26,7 @@ author_profile: true
     <div class="stat-label">Years Engineering</div>
   </div>
   <div class="stat-item">
-    <div class="stat-number">6</div>
+    <div class="stat-number">7</div>
     <div class="stat-label">Live Applications</div>
   </div>
   <div class="stat-item">
