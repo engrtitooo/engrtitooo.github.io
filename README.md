@@ -1,75 +1,44 @@
-<div align="center">
-  <h1>Eltayeb Mohammed</h1>
-  <h3>Senior Mechanical Engineer · Fintech Founder</h3>
-  <p><em>Engineering trust. Designing systems that scale.</em></p>
+# Eltayeb Mohammed · Engineering & Product Portfolio
 
-  <p>
-    <a href="https://github.com/engrtitooo" target="_blank" aria-label="GitHub">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
-           width="32" height="32" alt="GitHub" />
-    </a>
-    &nbsp;&nbsp;&nbsp;
-    <a href="https://www.linkedin.com/in/eltayeb-mohammed-32435031" target="_blank" aria-label="LinkedIn">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
-           width="32" height="32" alt="LinkedIn" />
-    </a>
-    &nbsp;&nbsp;&nbsp;
-    <a href="https://x.com/engrtitooo" target="_blank" aria-label="X">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/5/5a/X_icon_2.svg"
-           width="30" height="30" alt="X (Twitter)" />
-    </a>
-  </p>
-</div>
+Personal portfolio for **Eltayeb Mohammed**, a Chicago-based Senior Mechanical Engineer and Project Manager at Metra, with more than 18 years of engineering and infrastructure experience and hands-on work building AI and software products.
 
----
+**Website:** [engrtitooo.github.io](https://engrtitooo.github.io/)
 
-## About
+## Portfolio
 
-I am a **Senior Mechanical Engineer** with over **18 years of experience** delivering complex infrastructure and systems projects in the United States. Alongside my engineering career, I am the founder of **SpinFund**, a fintech platform focused on ethical, community-driven financial systems.
+- **Engineering:** Mechanical systems, HVAC/MEP coordination, capital project delivery, and lifecycle thinking.
+- **WizeCV:** A live bilingual AI resume and job-application platform.
+- **SpinFund:** A cash-flow planning and private savings-circle venture with MVP and sandbox integrations.
+- **Experiments:** TimeDial, RealEstateOS, ArchiCraft, GhostNet, CitiznGo, and VerraPay.
 
-My work bridges **engineering rigor, system architecture, and financial technology**, applying the same discipline used in safety-critical infrastructure to modern, compliant fintech products.
+Projects are labeled by development stage. Portfolio descriptions do not imply that prototypes are production services.
 
----
+## Website structure
 
-## Current Work
+The site uses GitHub Pages’ native Jekyll build with a custom layout, local CSS, and a small progressive-enhancement script. It has no external font, icon, JavaScript, or theme dependency.
 
-### Founder · SpinFund  
-*A cooperative savings and Sharia-compliant financial platform*
+| Source | Purpose |
+| --- | --- |
+| `index.md` | Homepage and featured work |
+| `about.md` | Professional background and AI development approach |
+| `projects.md` | Engineering experience, served at `/projects/` |
+| `apps.md` | Filterable product portfolio, served at `/apps/` |
+| `contact.md` | Contact and professional profile links |
+| `_data/products.yml` | Product descriptions, stages, technologies, and links |
+| `_data/navigation.yml` | Main navigation |
+| `_layouts/portfolio.html` | Shared page structure |
+| `_includes/head-custom.html` | Titles, metadata, canonical links, and structured data |
+| `assets/css/portfolio.css` | Responsive visual design |
+| `assets/js/portfolio.js` | Mobile navigation and project filtering |
 
-SpinFund is being developed as a regulated, technology-first platform enabling:
-- Transparent group-based savings models
-- Ethical, zero-interest financial structures
-- Secure automation using modern fintech infrastructure
-- A roadmap for AI-assisted financial insights
+## Maintaining the site
 
-The platform prioritizes **trust, compliance, and long-term sustainability**.
+Update shared product information in `_data/products.yml` to keep the homepage and portfolio consistent. Preserve existing page permalinks so previously shared URLs continue to work.
 
----
+Navigation and product content remain available without JavaScript. The site includes keyboard focus styling, a skip link, reduced-motion support, a custom 404 page, and a sitemap.
 
-## Professional Experience
+GitHub Pages builds and publishes changes from `main`. Check the repository’s **Actions** tab for the deployment result.
 
-### Senior Mechanical Engineer · Metra  
-*Chicago Metropolitan Rail System*
+## Contact
 
-- Lead mechanical design reviews for transit infrastructure
-- Coordinate multidisciplinary engineering teams
-- Apply systems engineering to safety, reliability, and lifecycle performance
-- Support capital programs through technical due diligence and risk assessment
-
-This experience informs my fintech work: **build systems as if public safety depends on them — because trust does**.
-
----
-
-## Focus Areas
-
-- Financial systems architecture  
-- Ethical & Sharia-compliant fintech  
-- AI for decision support and optimization  
-- Large-scale system design  
-- Engineering-driven startup execution  
-
----
-
-<div align="center">
-  <p>Open to collaboration, technical discussion, and serious problem-solving.</p>
-</div>
+[Email](mailto:eaeltayb@gmail.com) · [LinkedIn](https://www.linkedin.com/in/eltayeb-mohammed-32435031) · [GitHub](https://github.com/engrtitooo)

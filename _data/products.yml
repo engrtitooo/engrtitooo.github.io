@@ -1,0 +1,141 @@
+- id: wizecv
+  name: WizeCV
+  category: AI · Career tools
+  filters: ai
+  stage: Live product
+  featured: true
+  theme: wizecv
+  initials: W
+  role: Product design & development
+  headline: A better application starts with a clearer story.
+  summary: A bilingual AI resume builder that helps job seekers create, improve, and tailor their applications in English and Arabic.
+  focus: AI workflows, bilingual UX, and reliable access controls.
+  capabilities:
+    - AI resume improvement and job-specific tailoring
+    - ATS matching with actionable recommendations
+    - English and Arabic templates, PDF and Word exports
+  stack: [Next.js, TypeScript, Supabase, AI APIs]
+  url: https://www.wizecv.com/en
+- id: spinfund
+  name: SpinFund
+  category: Fintech · Cash-flow intelligence
+  filters: fintech
+  stage: MVP · Sandbox integrations
+  featured: true
+  theme: spinfund
+  initials: S
+  role: Founder & product lead
+  headline: Make saving decisions with cash-flow context.
+  summary: A cash-flow planning platform helping people explore individual saving and private savings circles around what they can afford to contribute.
+  focus: Product strategy, financial workflows, and integration boundaries.
+  capabilities:
+    - Individual, circle, and hybrid saving concepts
+    - Private circle setup, invitations, and schedules
+    - Plaid sandbox bank linking and cash-flow planning
+  stack: [React, TypeScript, Supabase, Plaid sandbox]
+  url: https://spinfund.app
+  note: Production banking, automated contributions, and payouts are planned capabilities.
+- id: timedial
+  name: TimeDial
+  category: AI · Voice & learning
+  filters: ai learning
+  stage: Hackathon prototype
+  theme: timedial
+  initials: T
+  role: Product development
+  headline: Turn a history lesson into a conversation.
+  summary: A voice-based learning prototype for conversations with AI representations of historical figures.
+  focus: Conversational UX and integration of AI and voice services.
+  capabilities:
+    - Voice conversations with historical AI personas
+    - Gemini and ElevenLabs service integration
+    - A conversational format for exploring historical topics
+  stack: [Gemini, ElevenLabs, Voice AI]
+  url: https://timedial-app-456115331802.us-central1.run.app/
+  repo: https://github.com/engrtitooo/TimeDial
+- id: realestateos
+  name: RealEstateOS
+  category: AI · Real estate
+  filters: ai
+  stage: Application prototype
+  theme: realestateos
+  initials: R
+  role: Product development
+  headline: Explore property marketing with generative AI.
+  summary: An AI studio for virtual staging, design exploration from floor plans, and property listing copy.
+  focus: Combining image generation and writing into a focused workflow.
+  capabilities:
+    - Virtual staging concepts for empty rooms
+    - Design exploration from floor plans
+    - AI-assisted property listing copy
+  stack: [Gemini, Imagen, Generative AI]
+  url: https://realestateos-769300741350.us-central1.run.app/
+  repo: https://github.com/engrtitooo/RealEstateOS
+- id: archicraft
+  name: ArchiCraft
+  category: AI · Architecture & interiors
+  filters: ai
+  stage: Application prototype
+  theme: archicraft
+  initials: A
+  role: Product development
+  headline: Explore design ideas before committing to a direction.
+  summary: An AI-assisted tool for architectural and interior design concept exploration.
+  focus: Early design exploration and iterative visual workflows.
+  capabilities:
+    - Architectural and interior concept generation
+    - Iterative exploration of visual directions
+    - A cloud-hosted interface for design ideation
+  stack: [Generative AI, Cloud deployment]
+  url: https://archicraft-250712192556.us-west1.run.app
+- id: ghostnet
+  name: GhostNet
+  category: Real-time · Communication
+  filters: realtime
+  stage: Hackathon prototype
+  theme: ghostnet
+  initials: G
+  role: Product development
+  headline: Explore a simpler way to connect in real time.
+  summary: A peer-to-peer chat experiment using WebRTC and ephemeral messaging.
+  focus: Peer-to-peer communication and session behavior.
+  capabilities:
+    - Browser-based WebRTC messaging
+    - Account-free session entry
+    - Ephemeral and session-persistence concepts
+  stack: [WebRTC, Real-time web]
+  url: https://ghostnet.app
+- id: citizngo
+  name: CitiznGo
+  category: Education · Civic technology
+  filters: learning
+  stage: Learning application
+  theme: citizngo
+  initials: C
+  role: Product development
+  headline: Make citizenship preparation easier to navigate.
+  summary: A web application for studying U.S. citizenship exam topics through a clear learning experience.
+  focus: Clear information design and accessible learning flows.
+  capabilities:
+    - Structured citizenship study content
+    - A focused learning interface
+    - Mobile-friendly access
+  stack: [Web application, Netlify]
+  url: https://citizngo.netlify.app
+- id: verrapay
+  name: VerraPay
+  category: Fintech · Payment concepts
+  filters: fintech
+  stage: Concept project
+  theme: verrapay
+  initials: V
+  role: Product exploration
+  headline: Explore the structure behind payment experiences.
+  summary: A concept project exploring payment flows, settlement, and financial technology infrastructure.
+  focus: Payment journey design and financial system concepts.
+  capabilities:
+    - Payment flow concepts
+    - Settlement and reconciliation exploration
+    - Financial product experience design
+  stack: [Fintech, Product architecture]
+  url: https://verrapay.net

@@ -1,130 +1,44 @@
 ---
-title: Applications
+layout: portfolio
+title: Products
+meta_title: "AI & Software Portfolio | Eltayeb Mohammed"
+description: "Explore WizeCV, SpinFund, and Eltayeb Mohammed’s AI and software projects, with clear descriptions of product focus, technologies, and development stage."
 permalink: /apps/
-layout: single
-author_profile: true
+page_id: products
 ---
 
-<div class="hero-section" style="padding: 2rem 1rem;">
-  <h1 class="hero-name" style="font-size: 2rem;">Applications</h1>
-  <p class="hero-summary">
-    Deployed web applications—each built end-to-end and running in production.
-  </p>
-</div>
-
----
-
-<div class="card-grid">
-
-<div class="project-card project-card--featured">
-  <p class="card-tagline">Fintech · Cooperative Finance</p>
-  <h3>SpinFund</h3>
-  <p>A fintech platform for cooperative savings and ethical finance. Built with compliance-first architecture and transparency at its foundation.</p>
-  <p><strong>Capabilities:</strong></p>
-  <ul>
-    <li>Cooperative savings workflows</li>
-    <li>Trust and transparency mechanisms</li>
-    <li>Compliance-aware architecture</li>
-  </ul>
-  <p class="card-note">Currently in MVP stage with active development.</p>
-  <div class="card-links">
-    <a href="https://spinfund.app" target="_blank" rel="noopener" class="btn btn--primary btn--small">View Live</a>
+<section class="page-intro">
+  <div class="container">
+    <p class="eyebrow">Portfolio / AI, fintech &amp; web applications</p>
+    <h1>Useful ideas.<br>Working applications.</h1>
+    <p class="lead">A selection of products and experiments I build and develop, spanning bilingual career tools, cash-flow planning, voice AI, generative design, and real-time communication.</p>
+    <p class="product-intro-note">Each project shows its current development stage. Live products, sandbox integrations, and prototypes have different levels of readiness.</p>
   </div>
-</div>
+</section>
 
-<div class="project-card project-card--featured">
-  <p class="card-tagline">Fintech · Payments</p>
-  <h3>VerraPay</h3>
-  <p>A concept platform exploring modern payment flows and fintech infrastructure patterns for settlement and transactions.</p>
-  <p><strong>Capabilities:</strong></p>
-  <ul>
-    <li>Payment flow design</li>
-    <li>Settlement concepts</li>
-    <li>Modern fintech patterns</li>
-  </ul>
-  <div class="card-links">
-    <a href="https://verrapay.net" target="_blank" rel="noopener" class="btn btn--primary btn--small">View Live</a>
+<section class="content-section">
+  <div class="container">
+    <div class="products-toolbar">
+      <div class="product-filters" role="group" aria-label="Filter projects by focus" hidden>
+        <button class="filter-button" type="button" data-filter="all" aria-pressed="true">All projects</button>
+        <button class="filter-button" type="button" data-filter="ai" aria-pressed="false">AI products</button>
+        <button class="filter-button" type="button" data-filter="fintech" aria-pressed="false">Fintech</button>
+        <button class="filter-button" type="button" data-filter="learning" aria-pressed="false">Learning</button>
+        <button class="filter-button" type="button" data-filter="realtime" aria-pressed="false">Real-time</button>
+      </div>
+      <p id="filter-status" class="filter-status" role="status" aria-live="polite">{{ site.data.products | size }} projects shown</p>
+    </div>
+    <div class="product-grid">
+      {% for product in site.data.products %}
+      {% include product-card.html %}
+      {% endfor %}
+    </div>
   </div>
-</div>
+</section>
 
-<div class="project-card">
-  <p class="card-tagline">WebRTC · Real-time Chat</p>
-  <h3>GhostNet</h3>
-  <p>Peer-to-peer chat built on WebRTC mesh networking. No accounts, ephemeral "ghost" messages, zero-friction entry.</p>
-  <p><strong>Capabilities:</strong></p>
-  <ul>
-    <li>Pure WebRTC mesh (no centralized server)</li>
-    <li>Ephemeral + session persistence modes</li>
-    <li>Responsive real-time UX</li>
-  </ul>
-  <p class="card-note">Hackathon project exploring P2P communication.</p>
-  <div class="card-links">
-    <a href="https://ghostnet.app" target="_blank" rel="noopener" class="btn btn--primary btn--small">View Live</a>
+<section class="section approach-section">
+  <div class="container contact-band">
+    <div><p class="eyebrow">Behind the products</p><h2>AI-assisted development.<br>Engineering-led decisions.</h2><p>I define the product requirements, guide implementation, review AI-generated work, and validate critical workflows as the products evolve.</p></div>
+    <a class="button" href="{{ '/about/' | relative_url }}">My approach <span aria-hidden="true">↗</span></a>
   </div>
-</div>
-
-<div class="project-card">
-  <p class="card-tagline">Education · Civic Tech</p>
-  <h3>CitiznGo</h3>
-  <p>U.S. citizenship exam prep application with clear, accessible learning flow for naturalization preparation.</p>
-  <p><strong>Capabilities:</strong></p>
-  <ul>
-    <li>Structured learning experience</li>
-    <li>Accessibility-focused design</li>
-    <li>Mobile-friendly interface</li>
-  </ul>
-  <div class="card-links">
-    <a href="https://citizngo.netlify.app" target="_blank" rel="noopener" class="btn btn--primary btn--small">View Live</a>
-  </div>
-</div>
-
-<div class="project-card">
-  <p class="card-tagline">AI · Design Tools</p>
-  <h3>ArchiCraft</h3>
-  <p>AI-powered tool for architectural and interior design concept exploration with practical generation workflows.</p>
-  <p><strong>Capabilities:</strong></p>
-  <ul>
-    <li>AI-powered concept generation</li>
-    <li>Architecture + interior focus</li>
-    <li>Iterative exploration workflow</li>
-  </ul>
-  <div class="card-links">
-    <a href="https://archicraft-250712192556.us-west1.run.app" target="_blank" rel="noopener" class="btn btn--primary btn--small">View Live</a>
-  </div>
-</div>
-
-<div class="project-card">
-  <p class="card-tagline">AI · Education · Voice</p>
-  <h3>TimeDial</h3>
-  <p>Immersive history teacher that lets you have real-time voice conversations with historical figures like Einstein and Cleopatra.</p>
-  <p><strong>Capabilities:</strong></p>
-  <ul>
-    <li>Real-time voice conversations with AI personas</li>
-    <li>Powered by Gemini + ElevenLabs voice synthesis</li>
-    <li>Fact-checked historical accuracy</li>
-  </ul>
-  <p class="card-note">Built for the AI Partner Catalyst Hackathon.</p>
-  <div class="card-links">
-    <a href="https://timedial-app-456115331802.us-central1.run.app/" target="_blank" rel="noopener" class="btn btn--primary btn--small">View Live</a>
-    <a href="https://github.com/engrtitooo/TimeDial" target="_blank" rel="noopener" class="btn btn--outline btn--small">GitHub</a>
-  </div>
-</div>
-
-<div class="project-card">
-  <p class="card-tagline">AI · Real Estate</p>
-  <h3>RealEstateOS</h3>
-  <p>AI-powered studio for real estate marketing. Stages empty rooms, turns floor plans into full-home designs, and generates professional listing copy.</p>
-  <p><strong>Capabilities:</strong></p>
-  <ul>
-    <li>Virtual staging of empty rooms</li>
-    <li>Floor plan to full-home design conversion</li>
-    <li>Automated professional listing copy generation</li>
-  </ul>
-  <p class="card-note">Powered by Google's Gemini and Imagen models.</p>
-  <div class="card-links">
-    <a href="https://realestateos-769300741350.us-central1.run.app/" target="_blank" rel="noopener" class="btn btn--primary btn--small">View Live</a>
-    <a href="https://github.com/engrtitooo/RealEstateOS" target="_blank" rel="noopener" class="btn btn--outline btn--small">GitHub</a>
-  </div>
-</div>
-
-</div>
+</section>

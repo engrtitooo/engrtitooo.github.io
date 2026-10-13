@@ -1,14 +1,11 @@
-# Main navigation with dropdowns
 main:
   - title: "Home"
     url: /
   - title: "About"
     url: /about/
-  - title: "Work"
-    children:
-      - title: "Applications"
-        url: /apps/
-      - title: "Projects"
-        url: /projects/
+  - title: "Engineering"
+    url: /projects/
+  - title: "Products"
+    url: /apps/
   - title: "Contact"
     url: /contact/

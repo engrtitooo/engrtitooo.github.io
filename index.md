@@ -1,128 +1,117 @@
 ---
-layout: single
+layout: portfolio
+title: Eltayeb Mohammed
+meta_title: "Eltayeb Mohammed | Mechanical Engineering & AI Products"
+description: "Chicago-based Senior Mechanical Engineer and Project Manager. 18+ years in infrastructure, now also building practical AI products and fintech tools."
 permalink: /
-author_profile: true
+page_id: home
 ---
 
-<div class="hero-section">
-  <h1 class="hero-name">Eltayeb Mohammed</h1>
-  <p class="hero-role">Senior Mechanical Engineer · Fintech Founder</p>
-  <p class="hero-summary">
-    Building reliable systems in critical infrastructure and fintech. 18+ years engineering discipline applied to software—clear scope, risk-aware design, production deployments.
-  </p>
-  <div class="icon-row">
-    <a href="https://github.com/engrtitooo" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
-    <a href="https://www.linkedin.com/in/eltayeb-mohammed-32435031" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-    <a href="https://x.com/engrtitooo" target="_blank" rel="noopener" aria-label="X">
-      <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 512 512" style="fill:currentColor"><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg>
-    </a>
-    <a href="mailto:eaeltayb@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <p class="location-line"><span class="location-dot" aria-hidden="true"></span>Chicago, Illinois · Eltayeb Mohammed</p>
+      <h1>Engineering rigor.<br><em>Practical AI products.</em></h1>
+      <p class="hero-role">Senior Mechanical Engineer &amp; Project Manager</p>
+      <p class="hero-summary">I bring 18+ years of infrastructure experience to complex engineering challenges—and the same discipline to building useful software. My work connects mechanical systems, project leadership, and hands-on AI product development.</p>
+      <div class="hero-actions">
+        <a class="button" href="{{ '/projects/' | relative_url }}">Engineering experience <span aria-hidden="true">↗</span></a>
+        <a class="button button-outline" href="{{ '/apps/' | relative_url }}">Explore products <span aria-hidden="true">↗</span></a>
+      </div>
+    </div>
+    <div class="portrait-panel">
+      <img class="portrait-photo" src="{{ '/assets/images/avatar.png' | relative_url }}" alt="Eltayeb Mohammed" width="460" height="460" fetchpriority="high">
+      <div class="portrait-caption"><div><strong>Engineer. Project leader. Builder.</strong><span>Infrastructure &amp; digital products</span></div><span class="caption-number" aria-hidden="true">EM.</span></div>
+    </div>
   </div>
+</section>
+
+<div class="container credentials" aria-label="Professional background">
+  <div class="credential"><strong>18+ years</strong><span>Engineering &amp; infrastructure experience</span></div>
+  <div class="credential"><strong>Metra</strong><span>Mechanical engineering &amp; capital delivery</span></div>
+  <div class="credential"><strong>AI + software</strong><span>Hands-on product design &amp; development</span></div>
 </div>
 
-<div class="stats-row">
-  <div class="stat-item">
-    <div class="stat-number">18+</div>
-    <div class="stat-label">Years Engineering</div>
+<section class="section">
+  <div class="container engineering-overview">
+    <div>
+      <p class="eyebrow">01 / Engineering foundation</p>
+      <h2>Complex systems.<br>Clear decisions.</h2>
+      <p class="intro">As a Senior Mechanical Engineer and Project Manager at Metra, I support facility and infrastructure projects where safety, reliability, and coordination matter every day.</p>
+      <p class="intro">My approach starts with the requirements, follows the dependencies, and considers how a system will be built, operated, and maintained.</p>
+      <a class="text-link" href="{{ '/projects/' | relative_url }}">Explore my engineering work <span aria-hidden="true">↗</span></a>
+    </div>
+    <ul class="expertise-list">
+      <li><span class="row-number" aria-hidden="true">01</span><div><h3>Mechanical systems &amp; HVAC/MEP</h3><p>Design review, multidisciplinary coordination, and practical attention to facility performance.</p></div></li>
+      <li><span class="row-number" aria-hidden="true">02</span><div><h3>Capital project delivery</h3><p>Connecting scope, schedule, technical requirements, and stakeholder decisions.</p></div></li>
+      <li><span class="row-number" aria-hidden="true">03</span><div><h3>Reliability &amp; lifecycle thinking</h3><p>Evaluating constructability, maintainability, and operational requirements alongside design intent.</p></div></li>
+    </ul>
   </div>
-  <div class="stat-item">
-    <div class="stat-number">7</div>
-    <div class="stat-label">Live Applications</div>
+</section>
+
+<section class="section section-rule">
+  <div class="container">
+    <div class="section-heading">
+      <div><p class="eyebrow">02 / Selected products</p><h2>From a problem to a product.</h2></div>
+      <p>Software I build and develop around clear user needs—from bilingual career tools to cash-flow planning.</p>
+    </div>
+    <div class="product-feature-grid">
+      {% for product in site.data.products %}
+      {% if product.featured %}
+      <article class="product-feature product-{{ product.theme }}">
+        <div class="product-visual">
+          <span class="product-wordmark">{{ product.name }}</span>
+          <p class="visual-subtitle">{{ product.category }}</p>
+        </div>
+        <div class="product-feature-body">
+          <p class="eyebrow">{{ product.role }}</p>
+          <h3>{{ product.headline }}</h3>
+          <p>{{ product.summary }}</p>
+          <div class="feature-meta"><span class="stage">{{ product.stage }}</span></div>
+          <ul class="tags" aria-label="{{ product.name }} technologies">{% for technology in product.stack %}<li>{{ technology }}</li>{% endfor %}</ul>
+          <div class="product-links">
+            <a class="text-link" href="{{ product.url }}" target="_blank" rel="noopener noreferrer" aria-label="Visit {{ product.name }} website">Visit {{ product.name }} <span aria-hidden="true">↗</span></a>
+            <a class="text-link secondary-link" href="{{ '/apps/' | relative_url }}#{{ product.id }}" aria-label="Read about {{ product.name }}">Project details <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+      </article>
+      {% endif %}
+      {% endfor %}
+    </div>
+    <div class="selected-list" aria-label="More selected projects">
+      {% for product in site.data.products %}
+      {% if product.id == 'timedial' or product.id == 'realestateos' or product.id == 'archicraft' or product.id == 'ghostnet' %}
+      <a class="selected-item product-{{ product.theme }}" href="{{ '/apps/' | relative_url }}#{{ product.id }}">
+        <span class="product-mark" aria-hidden="true">{{ product.initials }}</span>
+        <div><h3>{{ product.name }}</h3><p>{{ product.category }}</p></div>
+        <span class="item-arrow" aria-hidden="true">↗</span>
+      </a>
+      {% endif %}
+      {% endfor %}
+    </div>
+    <a class="text-link" href="{{ '/apps/' | relative_url }}" style="margin-top: 22px;">Explore the full product portfolio <span aria-hidden="true">↗</span></a>
   </div>
-  <div class="stat-item">
-    <div class="stat-number">2</div>
-    <div class="stat-label">Fintech Ventures</div>
+</section>
+
+<section class="section approach-section">
+  <div class="container approach-grid">
+    <div>
+      <p class="eyebrow">03 / How I build</p>
+      <h2>AI accelerates the work.<br>Judgment guides it.</h2>
+      <p class="lead">I use AI tools to support development, explore options, and iterate faster. I stay responsible for the requirements, implementation review, and validation.</p>
+      <a class="text-link" href="{{ '/about/' | relative_url }}">More about my approach <span aria-hidden="true">↗</span></a>
+    </div>
+    <ol class="approach-steps">
+      <li><span class="step-number" aria-hidden="true">01</span><div><h3>Define the real problem</h3><p>Understand the user, operating constraints, and success criteria before choosing the solution.</p></div></li>
+      <li><span class="step-number" aria-hidden="true">02</span><div><h3>Build with clear boundaries</h3><p>Turn requirements into focused workflows, deliberate integrations, and maintainable components.</p></div></li>
+      <li><span class="step-number" aria-hidden="true">03</span><div><h3>Validate, then improve</h3><p>Check critical user journeys, review AI output, and use feedback to guide the next iteration.</p></div></li>
+    </ol>
   </div>
-</div>
+</section>
 
----
-
-## Featured Work
-
-<div class="card-grid">
-
-<div class="project-card project-card--featured">
-  <p class="card-tagline">Fintech</p>
-  <h3>SpinFund</h3>
-  <p>Cooperative savings and ethical finance platform. Compliance-first architecture with trust and transparency at its core.</p>
-  <div class="card-links">
-    <a href="https://spinfund.app" target="_blank" rel="noopener" class="btn btn--primary btn--small">View Live</a>
+<section class="section">
+  <div class="container contact-band">
+    <div><p class="eyebrow">Start a conversation</p><h2>Let’s work on a worthwhile problem.</h2><p>Engineering opportunities, technical collaboration, or practical applications of AI.</p></div>
+    <a class="button" href="{{ '/contact/' | relative_url }}">Get in touch <span aria-hidden="true">↗</span></a>
   </div>
-</div>
-
-<div class="project-card project-card--featured">
-  <p class="card-tagline">Fintech</p>
-  <h3>VerraPay</h3>
-  <p>Payments and settlement platform. Modern payment flows and fintech infrastructure exploration.</p>
-  <div class="card-links">
-    <a href="https://verrapay.net" target="_blank" rel="noopener" class="btn btn--primary btn--small">View Live</a>
-  </div>
-</div>
-
-<div class="project-card">
-  <p class="card-tagline">WebRTC · Real-time</p>
-  <h3>GhostNet</h3>
-  <p>Peer-to-peer WebRTC mesh chat with ephemeral messages. No accounts, zero friction. Hackathon project.</p>
-  <div class="card-links">
-    <a href="https://ghostnet.app" target="_blank" rel="noopener" class="btn btn--primary btn--small">View Live</a>
-  </div>
-</div>
-
-<div class="project-card">
-  <p class="card-tagline">Education</p>
-  <h3>CitiznGo</h3>
-  <p>U.S. citizenship exam prep web app. Clean, accessible learning experience for naturalization preparation.</p>
-  <div class="card-links">
-    <a href="https://citizngo.netlify.app" target="_blank" rel="noopener" class="btn btn--primary btn--small">View Live</a>
-  </div>
-</div>
-
-<div class="project-card">
-  <p class="card-tagline">AI · Design</p>
-  <h3>ArchiCraft</h3>
-  <p>AI-powered architectural and interior design concept exploration. Cloud-deployed with practical workflows.</p>
-  <div class="card-links">
-    <a href="https://archicraft-250712192556.us-west1.run.app" target="_blank" rel="noopener" class="btn btn--primary btn--small">View Live</a>
-  </div>
-</div>
-
-<div class="project-card">
-  <p class="card-tagline">AI · Education · Voice</p>
-  <h3>TimeDial</h3>
-  <p>Immersive history teacher with real-time voice conversations. Talk to Einstein, Cleopatra, and more.</p>
-  <div class="card-links">
-    <a href="https://timedial-app-456115331802.us-central1.run.app/" target="_blank" rel="noopener" class="btn btn--primary btn--small">View Live</a>
-    <a href="https://github.com/engrtitooo/TimeDial" target="_blank" rel="noopener" class="btn btn--outline btn--small">GitHub</a>
-  </div>
-</div>
-
-<div class="project-card">
-  <p class="card-tagline">AI · Real Estate</p>
-  <h3>RealEstateOS</h3>
-  <p>AI-powered studio for real estate marketing. Stages empty rooms, turns floor plans into full-home designs, and generates professional listing copy.</p>
-  <div class="card-links">
-    <a href="https://realestateos-769300741350.us-central1.run.app/" target="_blank" rel="noopener" class="btn btn--primary btn--small">View Live</a>
-    <a href="https://github.com/engrtitooo/RealEstateOS" target="_blank" rel="noopener" class="btn btn--outline btn--small">GitHub</a>
-  </div>
-</div>
-
-</div>
-
----
-
-## What I Value
-
-<div class="values-grid">
-  <div class="value-card">
-    <span class="value-title">Clarity before complexity</span>
-    <p class="value-text">Simple architectures, explicit tradeoffs, and solutions that are maintainable.</p>
-  </div>
-  <div class="value-card">
-    <span class="value-title">Trust by design</span>
-    <p class="value-text">Security, privacy, and compliance considered early, not patched later.</p>
-  </div>
-  <div class="value-card">
-    <span class="value-title">Operational readiness</span>
-    <p class="value-text">Deployable systems with monitoring, documentation, and a path to continuous improvement.</p>
-  </div>
-</div>
+</section>

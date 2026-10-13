@@ -1,54 +1,32 @@
 title: Eltayeb Mohammed
-description: Senior Mechanical Engineer · Fintech Founder · Building reliable systems in infrastructure and fintech.
+description: "Senior Mechanical Engineer and Project Manager in Chicago. 18+ years in infrastructure, with hands-on work building AI products and fintech tools."
 url: "https://engrtitooo.github.io"
 baseurl: ""
-
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-minimal_mistakes_skin: "default"
-
+lang: en
+timezone: America/Chicago
+markdown: kramdown
+kramdown:
+  input: GFM
 plugins:
-  - jekyll-include-cache
   - jekyll-sitemap
-  - jekyll-feed
-
 author:
   name: "Eltayeb Mohammed"
   avatar: "/assets/images/avatar.png"
-  bio: "Senior Mechanical Engineer<br>Fintech Founder"
+  bio: "Senior Mechanical Engineer & Project Manager · AI Product Builder"
   location: "Chicago, IL"
-  links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/engrtitooo"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/eltayeb-mohammed-32435031"
-    - label: "X"
-      icon: "fab fa-fw fa-twitter"
-      url: "https://x.com/engrtitooo"
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope"
-      url: "mailto:eaeltayb@gmail.com"
-
-# Defaults for pages
+email: "eaeltayb@gmail.com"
+github_url: "https://github.com/engrtitooo"
+linkedin_url: "https://www.linkedin.com/in/eltayeb-mohammed-32435031"
+x_url: "https://x.com/engrtitooo"
 defaults:
   - scope:
       path: ""
       type: pages
     values:
-      layout: single
-      author_profile: true
-      toc: false
-
-# Make URLs clean
+      layout: portfolio
 permalink: pretty
-
-# Footer
-footer:
-  links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/engrtitooo"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/eltayeb-mohammed-32435031"
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
