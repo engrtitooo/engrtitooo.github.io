@@ -7,9 +7,11 @@ Personal portfolio for **Eltayeb Mohammed**, a Chicago-based Senior Mechanical E
 ## Portfolio
 
 - **Engineering:** Mechanical systems, HVAC/MEP coordination, capital project delivery, and lifecycle thinking.
+- **Featured — SpinFund:** A cash-flow planning and private savings-circle venture with MVP and sandbox integrations.
+- **Featured — ArchiCraft:** AI-assisted floor-plan analysis, conceptual layouts, and interior design exploration. [Public repository](https://github.com/engrtitooo/ArchiCraft).
 - **WizeCV:** A live bilingual AI resume and job-application platform.
-- **SpinFund:** A cash-flow planning and private savings-circle venture with MVP and sandbox integrations.
-- **Experiments:** TimeDial, RealEstateOS, ArchiCraft, GhostNet, CitiznGo, and VerraPay.
+- **GhostNet:** An open-source WebRTC chat application with an MIT license. [Public repository](https://github.com/engrtitooo/GhostNet-App).
+- **Other projects:** TimeDial, RealEstateOS, CitiznGo, and VerraPay. Public source links are included where verified.
 
 Projects are labeled by development stage. Portfolio descriptions do not imply that prototypes are production services.
 

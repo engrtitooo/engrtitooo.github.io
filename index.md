@@ -53,7 +53,7 @@ page_id: home
   <div class="container">
     <div class="section-heading">
       <div><p class="eyebrow">02 / Selected products</p><h2>From a problem to a product.</h2></div>
-      <p>Software I build and develop around clear user needs—from bilingual career tools to cash-flow planning.</p>
+      <p>Software I build and develop around clear user needs—from architectural design exploration to cash-flow planning.</p>
     </div>
     <div class="product-feature-grid">
       {% for product in site.data.products %}
@@ -71,6 +71,7 @@ page_id: home
           <ul class="tags" aria-label="{{ product.name }} technologies">{% for technology in product.stack %}<li>{{ technology }}</li>{% endfor %}</ul>
           <div class="product-links">
             <a class="text-link" href="{{ product.url }}" target="_blank" rel="noopener noreferrer" aria-label="Visit {{ product.name }} website">Visit {{ product.name }} <span aria-hidden="true">↗</span></a>
+            {% if product.repo %}<a class="text-link secondary-link" href="{{ product.repo }}" target="_blank" rel="noopener noreferrer" aria-label="View {{ product.name }} on GitHub">GitHub <span aria-hidden="true">↗</span></a>{% endif %}
             <a class="text-link secondary-link" href="{{ '/apps/' | relative_url }}#{{ product.id }}" aria-label="Read about {{ product.name }}">Project details <span aria-hidden="true">→</span></a>
           </div>
         </div>
@@ -80,10 +81,10 @@ page_id: home
     </div>
     <div class="selected-list" aria-label="More selected projects">
       {% for product in site.data.products %}
-      {% if product.id == 'timedial' or product.id == 'realestateos' or product.id == 'archicraft' or product.id == 'ghostnet' %}
+      {% if product.id == 'timedial' or product.id == 'realestateos' or product.id == 'wizecv' or product.id == 'ghostnet' %}
       <a class="selected-item product-{{ product.theme }}" href="{{ '/apps/' | relative_url }}#{{ product.id }}">
         <span class="product-mark" aria-hidden="true">{{ product.initials }}</span>
-        <div><h3>{{ product.name }}</h3><p>{{ product.category }}</p></div>
+        <div><h3>{{ product.name }}</h3><p>{{ product.category }}{% if product.open_source %} · Open source{% endif %}</p></div>
         <span class="item-arrow" aria-hidden="true">↗</span>
       </a>
       {% endif %}

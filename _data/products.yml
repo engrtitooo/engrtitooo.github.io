@@ -3,7 +3,7 @@
   category: AI · Career tools
   filters: ai
   stage: Live product
-  featured: true
+  featured: false
   theme: wizecv
   initials: W
   role: Product design & development
@@ -76,35 +76,41 @@
   category: AI · Architecture & interiors
   filters: ai
   stage: Application prototype
+  featured: true
   theme: archicraft
   initials: A
   role: Product development
-  headline: Explore design ideas before committing to a direction.
-  summary: An AI-assisted tool for architectural and interior design concept exploration.
-  focus: Early design exploration and iterative visual workflows.
+  headline: From a floor plan to a design concept.
+  summary: An AI design application that analyzes existing floor plans and generates conceptual layouts and interior design ideas from user requirements.
+  focus: Multimodal AI, spatial planning, and structured visual outputs.
   capabilities:
-    - Architectural and interior concept generation
-    - Iterative exploration of visual directions
-    - A cloud-hosted interface for design ideation
-  stack: [Generative AI, Cloud deployment]
+    - Floor-plan analysis and structured room schedules
+    - Conceptual layouts from plot dimensions and room needs
+    - Interior visualizations and printable design reports
+  stack: [React, TypeScript, Gemini, Google Cloud Run]
   url: https://archicraft-250712192556.us-west1.run.app
+  repo: https://github.com/engrtitooo/ArchiCraft
+  note: Conceptual design exploration; generated layouts are not construction documents.
 - id: ghostnet
   name: GhostNet
   category: Real-time · Communication
   filters: realtime
-  stage: Hackathon prototype
+  stage: Open-source hackathon project
   theme: ghostnet
   initials: G
   role: Product development
   headline: Explore a simpler way to connect in real time.
-  summary: A peer-to-peer chat experiment using WebRTC and ephemeral messaging.
-  focus: Peer-to-peer communication and session behavior.
+  summary: An open-source, real-time chat application using WebRTC peer-to-peer messaging and ephemeral messages.
+  focus: Peer connection management, WebSocket signaling, and real-time interaction.
   capabilities:
-    - Browser-based WebRTC messaging
-    - Account-free session entry
-    - Ephemeral and session-persistence concepts
-  stack: [WebRTC, Real-time web]
+    - Direct browser-to-browser WebRTC messaging
+    - Account-free entry with ephemeral and session messages
+    - Shared TypeScript protocols and WebSocket signaling
+  stack: [React, TypeScript, WebRTC, Node.js]
   url: https://ghostnet.app
+  repo: https://github.com/engrtitooo/GhostNet-App
+  open_source: true
+  license: MIT
 - id: citizngo
   name: CitiznGo
   category: Education · Civic technology

@@ -9,6 +9,7 @@
     <ul class="capability-list">{% for capability in product.capabilities %}<li>{{ capability }}</li>{% endfor %}</ul>
   </div>
   <ul class="tags" aria-label="{{ product.name }} technologies and focus areas">{% for technology in product.stack %}<li>{{ technology }}</li>{% endfor %}</ul>
+  {% if product.repo %}<p class="source-note">{% if product.open_source %}Open source · {{ product.license }} license{% else %}Public source repository{% endif %}</p>{% endif %}
   {% if product.note %}<p class="project-note">{{ product.note }}</p>{% endif %}
   <div class="product-links">
     <a class="text-link" href="{{ product.url }}" target="_blank" rel="noopener noreferrer" aria-label="Visit {{ product.name }} website">Visit website <span aria-hidden="true">↗</span></a>

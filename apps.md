@@ -2,7 +2,7 @@
 layout: portfolio
 title: Products
 meta_title: "AI & Software Portfolio | Eltayeb Mohammed"
-description: "Explore WizeCV, SpinFund, and Eltayeb Mohammed’s AI and software projects, with clear descriptions of product focus, technologies, and development stage."
+description: "Explore SpinFund, ArchiCraft, and Eltayeb Mohammed’s AI and software projects, including GhostNet’s MIT-licensed source and verified public repositories."
 permalink: /apps/
 page_id: products
 ---
@@ -30,7 +30,14 @@ page_id: products
     </div>
     <div class="product-grid">
       {% for product in site.data.products %}
+      {% if product.featured %}
       {% include product-card.html %}
+      {% endif %}
+      {% endfor %}
+      {% for product in site.data.products %}
+      {% unless product.featured %}
+      {% include product-card.html %}
+      {% endunless %}
       {% endfor %}
     </div>
   </div>
