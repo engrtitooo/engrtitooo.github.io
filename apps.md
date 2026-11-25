@@ -18,7 +18,7 @@ page_id: products
 
 <section class="content-section">
   <div class="container">
-    <div class="products-toolbar">
+    <div class="products-toolbar" id="all-projects">
       <div class="product-filters" role="group" aria-label="Filter projects by focus" hidden>
         <button class="filter-button" type="button" data-filter="all" aria-pressed="true">All projects</button>
         <button class="filter-button" type="button" data-filter="ai" aria-pressed="false">AI products</button>
@@ -28,6 +28,12 @@ page_id: products
       </div>
       <p id="filter-status" class="filter-status" role="status" aria-live="polite">{{ site.data.products | size }} projects shown</p>
     </div>
+    <nav class="project-index" aria-label="Jump to a project">
+      {% assign projects_by_name = site.data.products | sort: 'name' %}
+      {% for product in projects_by_name %}
+      <a class="text-link" href="#{{ product.id }}">{{ product.name }}</a>
+      {% endfor %}
+    </nav>
     <div class="product-grid">
       {% for product in site.data.products %}
       {% if product.featured %}

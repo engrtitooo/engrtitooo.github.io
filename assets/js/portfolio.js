@@ -36,10 +36,12 @@ if (filters) {
   const buttons = filters.querySelectorAll('[data-filter]');
   const cards = document.querySelectorAll('[data-categories]');
   const status = document.querySelector('#filter-status');
+  const projectIndex = document.querySelector('.project-index');
   filters.hidden = false;
   buttons.forEach((button) => {
     button.addEventListener('click', () => {
       const category = button.dataset.filter;
+      if (projectIndex) projectIndex.hidden = category !== 'all';
       buttons.forEach((item) => item.setAttribute('aria-pressed', String(item === button)));
       let count = 0;
       cards.forEach((card) => {

@@ -145,10 +145,9 @@
     - Follow each action in the activity history
     - Give instructions in English, Arabic, or Spanish
   stack: [Chrome Extension, TypeScript, WebMCP]
-  note: To try Buddy in the playground, follow the GitHub setup instructions for WebMCP-enabled Chrome.
+  note: Anyone can browse and search Buddy Market. Voice and text commands require the Buddy extension in WebMCP-enabled Chrome.
   url: https://buddy-webmcp-market.engrtitooo.chatgpt.site/
   url_label: Explore Buddy Market
-  repo: https://github.com/engrtitooo/buddy-webmcp
 - id: citizngo
   name: CitiznGo
   category: Education · Civic technology

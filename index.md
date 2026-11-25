@@ -79,18 +79,18 @@ page_id: home
       {% endif %}
       {% endfor %}
     </div>
-    <div class="selected-list" aria-label="More selected projects">
+    <div class="selected-list" aria-label="More projects">
       {% for product in site.data.products %}
-      {% if product.id == 'timedial' or product.id == 'realestateos' or product.id == 'wizecv' or product.id == 'ghostnet' or product.id == 'sift' or product.id == 'buddy-webmcp' %}
+      {% unless product.featured %}
       <a class="selected-item product-{{ product.theme }}" href="{{ '/apps/' | relative_url }}#{{ product.id }}">
         <span class="product-mark" aria-hidden="true">{{ product.initials }}</span>
         <div><h3>{{ product.name }}</h3><p>{{ product.category }}{% if product.open_source %} · Open source{% endif %}</p></div>
         <span class="item-arrow" aria-hidden="true">↗</span>
       </a>
-      {% endif %}
+      {% endunless %}
       {% endfor %}
     </div>
-    <a class="text-link" href="{{ '/apps/' | relative_url }}" style="margin-top: 22px;">Explore the full product portfolio <span aria-hidden="true">↗</span></a>
+    <a class="text-link" href="{{ '/apps/' | relative_url }}#all-projects" style="margin-top: 22px;">View all {{ site.data.products | size }} projects <span aria-hidden="true">↗</span></a>
   </div>
 </section>
 
