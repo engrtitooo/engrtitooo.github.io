@@ -81,7 +81,7 @@ page_id: home
     </div>
     <div class="selected-list" aria-label="More selected projects">
       {% for product in site.data.products %}
-      {% if product.id == 'timedial' or product.id == 'realestateos' or product.id == 'wizecv' or product.id == 'ghostnet' %}
+      {% if product.id == 'timedial' or product.id == 'realestateos' or product.id == 'wizecv' or product.id == 'ghostnet' or product.id == 'sift' or product.id == 'buddy-webmcp' %}
       <a class="selected-item product-{{ product.theme }}" href="{{ '/apps/' | relative_url }}#{{ product.id }}">
         <span class="product-mark" aria-hidden="true">{{ product.initials }}</span>
         <div><h3>{{ product.name }}</h3><p>{{ product.category }}{% if product.open_source %} · Open source{% endif %}</p></div>

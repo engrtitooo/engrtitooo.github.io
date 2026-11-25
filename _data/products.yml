@@ -111,6 +111,44 @@
   repo: https://github.com/engrtitooo/GhostNet-App
   open_source: true
   license: MIT
+- id: sift
+  name: Sift
+  category: AI · iPhone productivity
+  filters: ai
+  stage: Live iPhone app
+  featured: false
+  theme: sift
+  initials: S
+  role: App design & development
+  summary: Sift turns your iPhone screenshots into an inbox. Save a concert poster and it picks out the date. Save a restaurant and it gives you directions.
+  focus: You review each suggestion with a swipe and choose what to keep or act on.
+  capabilities:
+    - Add an event to your calendar with the date filled in
+    - Save places and set reminders for products you want to revisit
+    - Keep receipt details such as the merchant and amount
+  stack: [iOS, React Native, Gemini]
+  url: https://apps.apple.com/us/app/sift-your-screenshot-inbox/id6813565983
+  url_label: View Sift on the App Store
+- id: buddy-webmcp
+  name: Buddy WebMCP
+  category: AI · Browser tools
+  filters: ai
+  stage: Chrome extension prototype
+  featured: false
+  theme: buddy-webmcp
+  initials: B
+  role: Product design & development
+  summary: Tell Buddy what you want to do by text or voice. This Chrome extension uses the tools a website shares through WebMCP to carry out your request.
+  focus: In the Buddy Market playground, ask Buddy to find a gift under $50. It compares options and asks for your approval before simulated checkout.
+  capabilities:
+    - Discover what a compatible website can do in plain language
+    - Follow each action in the activity history
+    - Give instructions in English, Arabic, or Spanish
+  stack: [Chrome Extension, TypeScript, WebMCP]
+  note: To try Buddy in the playground, follow the GitHub setup instructions for WebMCP-enabled Chrome.
+  url: https://buddy-webmcp-market.engrtitooo.chatgpt.site/
+  url_label: Explore Buddy Market
+  repo: https://github.com/engrtitooo/buddy-webmcp
 - id: citizngo
   name: CitiznGo
   category: Education · Civic technology
